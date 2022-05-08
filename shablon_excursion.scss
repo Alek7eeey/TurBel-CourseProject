@@ -1,0 +1,523 @@
+.sec1 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.cont_2 {
+    height: 140px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 56%;
+    border-bottom: 2px solid black;
+}
+
+.top h4 {
+    font-size: 12px;
+    color: rgba(40, 40, 40, 1);
+    margin-right: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+
+.under {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.rght {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-right: 0px;
+}
+
+.lft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.sec1 button {
+    background: linear-gradient(#0499DD, #17C1BC);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    color: white;
+    width: 30%;
+    height: 33px;
+    padding: 10px auto;
+    border-radius: 10px;
+}
+
+.sec1 button:hover {
+    box-shadow: 2px 2px 10px #353535;
+}
+
+.under input {
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    width: 100%;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+/*#main_tur {
+    color: rgba(4, 153, 221, 1);
+}*/
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.top h4:hover {
+    color: rgba(4, 153, 221, 1);
+    transform: scale(1.1);
+}
+
+
+/*---------------media-zapros------------------*/
+
+@media (max-width: 900px) {
+    .top h4 {
+        margin-right: 4px;
+        margin-bottom: 8px;
+    }
+    .top {
+        width: 75%;
+        border-bottom: 1.7px solid black;
+    }
+    .sec1 button {
+        width: 200px;
+        height: 22px;
+        border-radius: 8px;
+    }
+    .under input {
+        border-radius: 8px;
+        height: 20px;
+        padding-bottom: 0;
+        width: 200px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+        margin-bottom: 6px;
+    }
+    .under {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .rght {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 591px) {
+    .top h4 {
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+    .content {
+        height: 300px;
+    }
+    .cont_2 {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 480px;
+    }
+    .content {
+        width: 95%;
+    }
+    .sec1 button {
+        font-size: 11px;
+        width: 200px;
+        height: 22px;
+        border-radius: 6px;
+    }
+    .under input {
+        width: 80%;
+        height: 25px;
+    }
+    input {
+        font-size: 10px;
+    }
+    .under {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+    .under form {
+        width: 250px;
+    }
+}
+
+.cost_age {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.child_cost {
+    margin-left: 20px;
+}
+
+main {
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: 55px 0 55px 0;
+}
+
+.content_in_main {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our_tour {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(4, 153, 221, 1);
+    margin: 45px auto 47px auto;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content_in_main .boxes {
+    display: flex;
+    width: 90%;
+    height: 1273px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t1,
+.t2,
+.t3,
+.t4 {
+    width: 100%;
+    height: 303px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+/*.t1 .left {
+    background-image: url(D:/studing/Курсовая_работа/Сайт/image/Minsk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    width: 30%;
+    border-radius: 10px 0 0 10px;
+}
+
+.t2 .left {
+    background-image: url(D:/studing/Курсовая_работа/Сайт/image/Brest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    width: 30%;
+    border-radius: 10px 0 0 10px;
+}
+
+.t3 .left {
+    background-image: url(D:/studing/Курсовая_работа/Сайт/image/Grodno.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    width: 30%;
+    border-radius: 10px 0 0 10px;
+}
+
+.t4 .left {
+    background-image: url(D:/studing/Курсовая_работа/Сайт/image/Gomel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    width: 30%;
+    border-radius: 10px 0 0 10px;
+}*/
+
+.boxes .right {
+    width: 70%;
+    padding: 0 0 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main h5 {
+    color: rgba(4, 153, 221, 1);
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    margin-bottom: 0;
+    text-align: start;
+}
+
+main h4 {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    text-align: start;
+}
+
+main .cost::first-line {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgba(4, 153, 221, 1);
+}
+
+main .cost p {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    color: black;
+}
+
+main .inf {
+    border-left: 3px solid #0499DD;
+    width: 97%;
+    margin: 0px;
+    padding: 0px;
+    text-align: start;
+}
+
+main .inf p {
+    color: rgba(40, 40, 40, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    margin-left: 5px;
+}
+
+.btn_zakaz {
+    background: linear-gradient(#0499DD, #17C1BC);
+    border: none;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    color: white;
+    width: 20%;
+    height: 28px;
+    padding: 10px auto;
+    border-radius: 40px;
+}
+
+.btn_zakaz:hover {
+    box-shadow: 2px 2px 10px #353535;
+}
+
+.cost img {
+    margin: 0 5px 0 7px;
+    width: 16px;
+    top: 2px;
+    position: relative;
+}
+
+
+/*---------------media-zapros-----------------*/
+
+@media (max-width: 900px) {
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+        width: 100%;
+        height: 300px;
+    }
+    .content_in_main .boxes {
+        display: flex;
+        width: 90%;
+        height: 1400px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    main {
+        height: 1400px;
+        display: flex;
+        justify-content: center;
+        margin: 55px 0 55px 0;
+    }
+    .btn_zakaz {
+        width: 30%;
+        height: 35px;
+    }
+    .content_in_main {
+        width: 85%;
+    }
+}
+
+@media (max-width: 591px) {
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+        width: 100%;
+        height: 450px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+    }
+    main {
+        height: 2000px;
+    }
+    .content_in_main .boxes {
+        width: 95%;
+        height: 2150px;
+    }
+    /*.t1 .left {
+        background-image: url(D:/studing/Курсовая_работа/Сайт/image/minsk-prospect.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 40% 80%;
+        width: 100%;
+        height: 45%;
+        border-radius: 10px 10px 0 0;
+    }
+    .t2 .left {
+        background-image: url(D:/studing/Курсовая_работа/Сайт/image/Brest_b.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 40% 0%;
+        width: 100%;
+        height: 240px;
+        border-radius: 10px 10px 0 0;
+    }
+    .t3 .left {
+        background-image: url(D:/studing/Курсовая_работа/Сайт/image/Grodno_b.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 40% 80%;
+        width: 100%;
+        height: 240px;
+        border-radius: 10px 10px 0 0;
+    }
+    .t4 .left {
+        background-image: url(D:/studing/Курсовая_работа/Сайт/image/gomel_b.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 40% 80%;
+        width: 100%;
+        height: 240px;
+        border-radius: 10px 10px 0 0;
+    }*/
+    main .cost::first-line {
+        font-size: 10px;
+    }
+    .cost img {
+        margin: 0 5px 0 7px;
+        width: 9px;
+        top: 1px;
+        position: relative;
+    }
+    main .cost p {
+        font-size: 5.5px;
+    }
+    main .inf p {
+        font-size: 8px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .btn_zakaz {
+        font-size: 10px;
+        width: 60%;
+        height: 28px;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+    .right {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}

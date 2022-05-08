@@ -1,0 +1,642 @@
+    body {
+        margin: 0;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+    #tours {
+        color: black;
+    }
+    
+    @media (max-width: 900px) {
+        #tours {
+            color: rgb(0, 0, 0);
+        }
+        #main {
+            color: white;
+        }
+    }
+    
+    .tur_city {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+    
+    .Minsk {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #424242;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    
+    .btn {
+        background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+        border-radius: 60px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 17px;
+        color: #FFFFFF;
+        width: 222px;
+        height: 44px;
+        padding: 10px auto;
+    }
+    
+    .btn:hover {
+        box-shadow: 2px 2px 10px #353535;
+    }
+    
+    .content_in_head {
+        width: 75%;
+        margin: 93px auto 123px;
+    }
+    /*----------------media_zapros----------------------*/
+    
+    @media(max-width:900px) {
+        .Minsk {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+        }
+        .content_in_head {
+            width: 85%;
+            margin: 93px auto 93px;
+        }
+    }
+    
+    .left h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        /* blue */
+        color: #0499DD;
+    }
+    
+    .left p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        /* black */
+        color: #282828;
+    }
+    
+    .n1,
+    .n2,
+    .n3,
+    .n4::first-line {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        /* blue */
+        color: #0499DD;
+    }
+    
+    .age {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 17px;
+        /* identical to box height */
+        /* black */
+        color: #282828;
+        margin-top: 0;
+    }
+    
+    .opisanie_ex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 68px;
+    }
+    
+    .left {
+        display: flex;
+        width: 38%;
+        flex-direction: column;
+    }
+    
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 54%;
+    }
+    
+    .cont-ex {
+        display: flex;
+        width: 75%;
+        justify-content: space-between;
+    }
+    
+    .n1,
+    .n2,
+    .n3,
+    .n4 {
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(20px);
+        border-radius: 10px;
+        margin-right: 10px;
+        text-align: center;
+        vertical-align: middle;
+        width: 160px;
+        height: 100px;
+    }
+    
+    .right img {
+        margin-right: 6px;
+    }
+    
+    .n3 p {
+        margin: 35px auto;
+    }
+    
+    .n1 p,
+    .n2 p {
+        margin-bottom: 0;
+    }
+    /*-------------media-zapros---------------*/
+    
+    @media(max-width:900px) {
+        .cont-ex {
+            flex-direction: column;
+            width: 85%;
+        }
+        .left {
+            width: 100%;
+            flex-direction: column;
+        }
+        .right {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    
+    @media(max-width:591px) {
+        .right {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .n1,
+        .n2,
+        .n3,
+        .n4 {
+            margin-top: 20px;
+        }
+        .cont-ex {
+            width: 95%;
+        }
+    }
+    
+    .right_ph_plashka p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 27px;
+        /* black */
+        color: #282828;
+        margin: 20px;
+    }
+    
+    .ph {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 87.5%;
+        margin-top: 90px;
+    }
+    
+    .left_ph {
+        background-image: url(../image/Minsk_tur.png);
+        width: 80%;
+        height: 877px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 40% 80%;
+        display: flex;
+    }
+    
+    .right_ph_plashka {
+        width: 87%;
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    
+    .text_in_plashka {
+        background: #EDEDED;
+        border-radius: 10px;
+        height: 95%;
+        width: 60%;
+    }
+    /*-------------media-zapros---------------*/
+    
+    @media(max-width:900px) {
+        .right_ph_plashka {
+            width: 90%;
+        }
+        .text_in_plashka {
+            width: 85%;
+        }
+        .right_ph_plashka p {
+            font-size: 15px;
+        }
+    }
+    
+    @media(max-width:591px) {
+        .right_ph_plashka {
+            width: 98%;
+        }
+        .text_in_plashka {
+            width: 95%;
+        }
+        .right_ph_plashka p {
+            font-size: 13px;
+        }
+    }
+    
+    .left_opis h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        /* blue */
+        color: #0499DD;
+        margin-top: 0;
+    }
+    
+    .opisanie li {
+        list-style-type: none;
+        /* Прячем исходные маркеры */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        font-family: 'Montserrat', sans-serif;
+        /* black */
+        color: #282828;
+    }
+    
+    .opisanie li::before {
+        color: #0499DD;
+        /* Цвет маркера */
+        content: "\2022";
+        /* Сам маркер */
+        padding-right: 10px;
+        /* Расстояние от маркера до текста */
+        font-size: 40px;
+        display: inline-block;
+        /* Расстояние между точкой и текстом */
+        width: 0.5em;
+        /* Задать значение расстояния */
+        vertical-align: sub;
+        margin-bottom: 38px;
+    }
+    
+    .opisanie {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 140px;
+    }
+    
+    .opisan_cnt {
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .opisan_cnt img {
+        margin-right: 10px;
+        margin: 0 5px 0 7px;
+        top: 1px;
+        position: relative;
+    }
+    /*---------------media-zapros-----------------*/
+    
+    @media(max-width:900px) {
+        .right_opis {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .opisan_cnt {
+            width: 85%;
+        }
+        .right_opis img {
+            width: 47%;
+        }
+    }
+    
+    @media(max-width:591px) {
+        .opisan_cnt {
+            width: 95%;
+        }
+        .opisanie li {
+            font-size: 12px;
+        }
+        .opisanie li::before {
+            font-size: 32px;
+        }
+    }
+    
+    .cont_dop_rashod h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        /* blue */
+        color: #0499DD;
+    }
+    
+    .dop {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 17px;
+        /* black */
+        color: #282828;
+        margin-top: 5px;
+    }
+    
+    .cost {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Montserrat', sans-serif;
+        /* blue */
+        color: #0499DD;
+        margin-bottom: 5px;
+    }
+    
+    .dop_rashod {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 105px;
+    }
+    
+    .cont_dop_rashod {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 75%;
+        flex-direction: column;
+    }
+    
+    .niz {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .dop1,
+    .dop2,
+    .dop3,
+    .dop4 {
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(20px);
+        border-radius: 10px;
+        width: 156px;
+        height: 100px;
+        margin-right: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .niz img {
+        margin-right: 8px;
+    }
+    /*--------media-zapros-----------*/
+    
+    @media(max-width:900px) {
+        .niz {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .cont_dop_rashod {
+            width: 85%;
+        }
+    }
+    
+    @media (max-width:591px) {
+        .cont_dop_rashod {
+            width: 95%;
+        }
+    }
+    
+    .rgt_zakaz h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        /* blue */
+        color: #0499DD;
+    }
+    
+    .btn_2 {
+        width: 265px;
+        height: 50px;
+        background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+        border-radius: 60px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        padding: 10px auto;
+        margin-top: 30px;
+    }
+    
+    .btn_2:hover {
+        box-shadow: 2px 2px 10px #353535;
+    }
+    
+    input {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #282828;
+        width: 280px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .zabron {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 109px;
+    }
+    
+    .cont_zabronir {
+        width: 87%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        justify-content: space-between;
+    }
+    
+    .rgt_zakaz {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lft_photo {
+        background-image: url(../image/register.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 40% 80%;
+        display: flex;
+        width: 85%;
+        height: 570px;
+        border-radius: 0 15px 15px 0;
+    }
+    
+    @media(max-width:900px) {
+        .cont_zabronir {
+            width: 100%;
+        }
+        .rgt_zakaz {
+            margin-left: 70px;
+            align-items: flex-start;
+        }
+    }
+    
+    @media (max-width:591px) {
+        .cont_zabronir {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+        input {
+            font-size: 12px;
+            width: 210px;
+            height: 35px;
+        }
+        .rgt_zakaz {
+            align-items: center;
+            margin-left: 0;
+        }
+        .btn_2 {
+            width: 235px;
+            height: 45px;
+            font-size: 13px;
+        }
+        .rgt_zakaz h4 {
+            font-size: 22px;
+        }
+        .lft_photo {
+            background-position: 40% 80%;
+            display: flex;
+            width: 100%;
+            height: 340px;
+            border-radius: 0 0 0 0;
+        }
+    }
+    /*-------------------------------------*/
+    
+    #zatemnenie:target {
+        display: block;
+    }
+    
+    #zatemnenie {
+        background: rgba(102, 102, 102, 0.68);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        z-index: 9999999999;
+    }
+    
+    window {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        border: 1px solid #cecece;
+        padding: 50px;
+        transform: translate(-50%, -50%);
+        background-color: #fafafa;
+    }
+    
+    a.close_window {
+        position: absolute;
+        right: 10px;
+        top: 4px;
+        border: none;
+        text-decoration: none;
+    }
+    
+    @media (max-width:900px) {
+        window {
+            width: 350px;
+            padding: 30px;
+        }
+    }
+    
+    @media (max-width:591px) {
+        window {
+            width: 200px;
+            padding: 30px;
+        }
+    }

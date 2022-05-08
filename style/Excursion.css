@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  background-color: rgb(229, 229, 229);
+}
+
+/***********/
+#tours {
+  color: black;
+}
+
+/*-----------media-zapros-------------*/
+@media (max-width: 900px) {
+  #tours {
+    color: rgb(0, 0, 0);
+  }
+
+  #main {
+    color: white;
+  }
+}
+#main_tur {
+  color: rgb(4, 153, 221);
+}
+
+.t1 .left {
+  background-image: url(../image/Minsk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  width: 30%;
+  border-radius: 10px 0 0 10px;
+}
+
+.t2 .left {
+  background-image: url(../image/Brest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  width: 30%;
+  border-radius: 10px 0 0 10px;
+}
+
+.t3 .left {
+  background-image: url(../image/Grodno.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  width: 30%;
+  border-radius: 10px 0 0 10px;
+}
+
+.t4 .left {
+  background-image: url(../image/Gomel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  width: 30%;
+  border-radius: 10px 0 0 10px;
+}
+
+@media (max-width: 591px) {
+  .t1 .left {
+    background-image: url(../image/minsk-prospect.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+    width: 100%;
+    height: 45%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .t2 .left {
+    background-image: url(../image/Brest_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 0%;
+    width: 100%;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .t3 .left {
+    background-image: url(../image/Grodno_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+    width: 100%;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .t4 .left {
+    background-image: url(../image/gomel_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+    width: 100%;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+  }
+}/*# sourceMappingURL=Excursion.css.map */

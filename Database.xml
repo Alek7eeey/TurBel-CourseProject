@@ -1,0 +1,95 @@
+<?xml version="1.0">
+
+<tours>
+
+<city_travel>
+<tour num="1">
+<title>Минск</title>
+<cost>65BYN</cost>
+<cost_for_children>50BYN</cost_for_children>
+<duration>5часов</duration>
+</tour>
+
+<tour num="2">
+<title>Брест</title>
+<cost>65BYN</cost>
+<cost_for_children>50BYN</cost_for_children>
+<duration>6часов</duration>
+</tour>
+
+<tour num="3">
+<title>Гродно</title>
+<cost>240BYN</cost>
+<cost_for_children>210BYN</cost_for_children>
+<duration>2дня</duration>
+</tour>
+
+<tour num="4">
+<title>Гомель</title>
+<cost>150BYN</cost>
+<cost_for_children>120BYN</cost_for_children>
+<duration>2дня</duration>
+</tour>
+</city_travel>
+
+<attraction>
+<tour num="1">
+<title>Брестская крепость</title>
+<cost>45BYN</cost>
+<cost_for_children>40BYN</cost_for_children>
+<duration>3часа</duration>
+</tour>
+
+<tour num="2">
+<title>Беловежская пуща</title>
+<cost>55BYN</cost>
+<cost_for_children>45BYN</cost_for_children>
+<duration>5часов</duration>
+</tour>
+
+<tour num="3">
+<title>Мирский замок</title>
+<cost>30BYN</cost>
+<cost_for_children>20BYN</cost_for_children>
+<duration>1.5часа</duration>
+</tour>
+
+<tour num="4">
+<title>Хатынь</title>
+<cost>25BYN</cost>
+<cost_for_children>20BYN</cost_for_children>
+<duration>1.5часа</duration>
+</tour>
+</attraction>
+
+<tourism>
+<tour num="1">
+<title>Поход</title>
+<cost>150BYN</cost>
+<cost_for_children>150BYN</cost_for_children>
+<duration>2дня</duration>
+</tour>
+
+<tour num="2">
+<title>Сплав на байдарках</title>
+<cost>75BYN</cost>
+<cost_for_children>65BYN</cost_for_children>
+<duration>8часов</duration>
+</tour>
+
+<tour num="3">
+<title>Рыбалка с гидом</title>
+<cost>300BYN</cost>
+<cost_for_children>280BYN</cost_for_children>
+<duration>8часов</duration>
+</tour>
+
+<tour num="4">
+<title>Прыжки с парашютом</title>
+<cost>380BYN</cost>
+<cost_for_children>50BYN</cost_for_children>
+<duration>45минут</duration>
+</tour>
+</tourism>
+
+</tours>

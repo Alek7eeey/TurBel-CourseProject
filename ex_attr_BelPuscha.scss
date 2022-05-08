@@ -1,0 +1,30 @@
+.left_ph {
+    background-image: url(../image/Bel_puscha_osn.png);
+    width: 80%;
+    height: 877px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+    display: flex;
+}
+
+.lft_photo {
+    background-image: url(../image/Bel_puscha_zakaz.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+    display: flex;
+    width: 85%;
+    height: 570px;
+    border-radius: 0 15px 15px 0;
+}
+
+@media (max-width:591px) {
+    .lft_photo {
+        background-position: 40% 80%;
+        display: flex;
+        width: 100%;
+        height: 340px;
+        border-radius: 0 0 0 0;
+    }
+}

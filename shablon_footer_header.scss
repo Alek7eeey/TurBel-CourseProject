@@ -1,0 +1,376 @@
+/*--------------------header--------------------------------*/
+
+.lg {
+    width: 92px;
+    height: 83px;
+    opacity: 1;
+}
+
+.head {
+    background-color: rgba(4, 153, 221, 1);
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_in_header {
+    width: 75%;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clearfix_2 {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 92px;
+}
+
+nav li a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    opacity: 1;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav li a:hover {
+    text-shadow: 1px 1px 3px black;
+}
+
+
+/*#tours {
+    color: black;
+}
+
+#main {
+    color: black;
+}
+
+#o_nas {
+    color: black;
+}*/
+
+nav ul {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0;
+    /* Обнуляем значение отступов */
+    padding: 4px;
+    /* Значение полей */
+}
+
+nav #menu-toggle {
+    display: none
+}
+
+.in_head {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 68px;
+    color: rgba(66, 66, 66, 1);
+    margin: 50px auto 50px auto;
+    width: 75%;
+    text-align: start;
+}
+
+
+/*-----------media-zapros-------------*/
+
+@media (max-width: 900px) {
+    .middle-header h1 {
+        font-size: 48px;
+    }
+    .btn {
+        width: 70%;
+    }
+    .info_in_head {
+        width: 70%;
+    }
+    div.content {
+        width: 90%;
+    }
+    .container {
+        height: 900px;
+    }
+    .info_in_head {
+        margin-top: 300px;
+    }
+    .menu-btn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 41px;
+        right: 123px;
+        width: 40px;
+        height: 25px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .menu-btn>span,
+    .menu-btn>span::before,
+    .menu-btn>span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        transition-duration: 0.25s;
+    }
+    .menu-btn>span::before {
+        content: " ";
+        top: -10px;
+    }
+    .menu-btn>span::after {
+        content: "";
+        top: 10px;
+    }
+    .clearfix_2 {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 246px;
+        height: 190px;
+        padding: 80px 0;
+        list-style: none;
+        background-color: rgba(4, 153, 221, 0.6);
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+        transition-duration: 0.25s;
+    }
+    .menu-item {
+        display: block;
+        padding: 14px 22px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: 0.25s;
+    }
+    /* #tours {
+        color: rgb(0, 0, 0);
+    }
+    #main {
+        color: white;
+    }*/
+    .menu-item:hover {
+        background-color: #CFD8DC;
+    }
+    #menu-toggle {
+        opacity: 0;
+    }
+    #menu-toggle:checked~.menu-btn>span {
+        transform: rotate(45deg);
+    }
+    #menu-toggle:checked~.menu-btn>span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+    #menu-toggle:checked~.menu-btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    #menu-toggle:checked~.clearfix_2 {
+        visibility: visible;
+        left: 0;
+    }
+    .in_head {
+        font-size: 48px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 591px) {
+    .middle-header h1 {
+        font-size: 25px;
+    }
+    .btn {
+        width: 380px;
+    }
+    .info_in_head {
+        width: 380px;
+    }
+    div.content {
+        width: 380px;
+    }
+    .container {
+        height: 900px;
+    }
+    .info_in_head {
+        margin-top: 197px;
+    }
+    .menu-btn {
+        top: 41px;
+        right: 24px;
+        width: 40px;
+        height: 25px;
+    }
+    div .btn {
+        margin-top: 30px;
+    }
+    .container {
+        height: 642px;
+    }
+    .btn button {
+        width: 190px;
+        height: 40px;
+    }
+    .in_head {
+        font-size: 34px;
+        width: 75%;
+        margin-bottom: 100px;
+    }
+}
+
+
+/*-----------------------footer------------------------*/
+
+footer {
+    display: flex;
+    background-color: rgba(237, 237, 237, 1);
+    justify-content: center;
+    align-items: center;
+    height: 173px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.one a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(40, 40, 40, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    margin-top: 15px;
+}
+
+.cont_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.right_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three {
+    margin-left: 65px;
+    word-wrap: break-word;
+}
+
+.right_footer p img {
+    margin-right: 10px;
+}
+
+.znacki {
+    margin: auto 10px auto 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right_footer p {
+    font-size: 12px;
+    color: rgba(40, 40, 40, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+footer img {
+    position: relative;
+    top: 4px;
+}
+
+.one a:hover {
+    text-shadow: 1px 1px 3px black;
+}
+
+.znacki img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width:591px) {
+    .one a {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .one {
+        margin: 20px auto 10px auto;
+    }
+    .cont_footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 95%;
+    }
+    footer {
+        height: 290px;
+    }
+    .right_footer p {
+        font-size: 8px;
+        margin-top: 0px;
+    }
+    .right_footer p img {
+        width: 10px;
+        margin: 0 5px;
+    }
+    .znacki img {
+        width: 18px;
+        margin-right: 5px;
+    }
+    footer img {
+        top: 2px;
+    }
+    .right_footer {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+        width: 95%;
+    }
+    .right_footer .three {
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+        justify-content: center;
+        align-items: center;
+    }
+    .two {
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
