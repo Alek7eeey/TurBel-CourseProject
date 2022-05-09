@@ -213,7 +213,7 @@ nav #menu-toggle {
     top: 0;
     left: -100%;
     width: 206px;
-    height: 118%;
+    height: 106%;
     padding: 30px 0;
     list-style: none;
     background-color: rgb(4, 153, 221);
@@ -293,7 +293,7 @@ nav #menu-toggle {
   }
 
   .info_in_head {
-    margin-top: 197px;
+    margin-top: 90px;
   }
 
   .menu-btn {
@@ -1134,7 +1134,7 @@ footer img {
   text-shadow: 1px 1px 3px black;
 }
 
-.znacki img:hover {
+.znacki svg:hover {
   transform: scale(1.2);
 }
 
@@ -1169,7 +1169,7 @@ footer img {
     margin: 0 5px;
   }
 
-  .znacki img {
+  .znacki svg {
     width: 20px;
     margin-right: 5px;
   }
