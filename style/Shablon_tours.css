@@ -375,6 +375,8 @@ body {
 
   .opisanie li::before {
     font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 16px;
   }
 }
 .cont_dop_rashod h6 {
@@ -654,4 +656,11 @@ a.close_window {
 .n3:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 591px) {
+  .left_ph {
+    width: 85%;
+    height: 633px;
+  }
 }/*# sourceMappingURL=Shablon_tours.css.map */

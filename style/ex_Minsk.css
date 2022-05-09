@@ -650,4 +650,17 @@ a.close_window {
     width: 200px;
     padding: 30px;
   }
+}
+@media (max-width: 591px) {
+  .left_ph {
+    width: 85%;
+    height: 914px;
+  }
+}
+@media (max-width: 591px) {
+  .opisanie li::before {
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 16px;
+  }
 }/*# sourceMappingURL=ex_Minsk.css.map */

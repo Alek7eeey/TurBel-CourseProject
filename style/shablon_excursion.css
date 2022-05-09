@@ -179,7 +179,7 @@ input {
 }
 @media (max-width: 591px) {
   .top h4 {
-    font-size: 8px;
+    font-size: 9px;
     margin-bottom: 8px;
   }
 
@@ -202,13 +202,14 @@ input {
   .sec1 button {
     font-size: 11px;
     width: 200px;
-    height: 22px;
+    height: 28px;
     border-radius: 6px;
+    margin-top: 15px;
   }
 
   .under input {
-    width: 80%;
-    height: 25px;
+    width: 100%;
+    height: 36px;
   }
 
   input {
@@ -221,10 +222,15 @@ input {
     justify-content: center;
     align-items: center;
     width: 85%;
+    margin-top: -15px;
   }
 
   .under form {
     width: 250px;
+  }
+
+  .top {
+    width: 86%;
   }
 }
 .cost_age {

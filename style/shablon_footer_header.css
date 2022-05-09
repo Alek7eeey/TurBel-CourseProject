@@ -150,11 +150,11 @@ nav #menu-toggle {
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 246px;
-    height: 190px;
-    padding: 80px 0;
+    width: 205px;
+    height: 26%;
+    padding: 30px 0;
     list-style: none;
-    background-color: rgba(4, 153, 221, 0.6);
+    background-color: rgb(4, 153, 221);
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition-duration: 0.25s;
   }
@@ -207,6 +207,10 @@ nav #menu-toggle {
   .in_head {
     font-size: 48px;
     width: 90%;
+  }
+
+  nav li a {
+    margin-left: 2px;
   }
 }
 @media (max-width: 591px) {
