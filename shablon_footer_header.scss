@@ -1,20 +1,23 @@
 /*--------------------header--------------------------------*/
 
 .lg {
+    //логотип
     width: 92px;
     height: 83px;
     opacity: 1;
 }
 
 .head {
+    //верхний колонтитул
     background-color: rgba(4, 153, 221, 1);
     height: 122px;
     display: flex;
-    justify-content: center;
+    justify-content: center; //центрирование
     align-items: center;
 }
 
 .content_in_header {
+    //контентная информация в шапке
     width: 75%;
     height: 122px;
     display: flex;
@@ -29,6 +32,7 @@
 }
 
 nav li a {
+    //редактрирование ссылок
     display: inline-flex;
     align-items: center;
     text-decoration: none;
@@ -39,30 +43,19 @@ nav li a {
     font-size: 14px;
     line-height: 17px;
     color: white;
-    opacity: 1;
+    opacity: 1; //прозрачность 1
 }
 
 nav li {
+    //список
     list-style-type: none;
     display: inline-flex;
 }
 
 nav li a:hover {
-    text-shadow: 1px 1px 3px black;
+    //дейтсвия при наведении мышки
+    text-shadow: 1px 1px 3px black; //тень
 }
-
-
-/*#tours {
-    color: black;
-}
-
-#main {
-    color: black;
-}
-
-#o_nas {
-    color: black;
-}*/
 
 nav ul {
     display: inline-flex;
@@ -74,7 +67,7 @@ nav ul {
 }
 
 nav #menu-toggle {
-    display: none
+    display: none //прячем меню при компьютерной версии
 }
 
 .in_head {
@@ -84,13 +77,14 @@ nav #menu-toggle {
     color: rgba(66, 66, 66, 1);
     margin: 50px auto 50px auto;
     width: 75%;
-    text-align: start;
+    text-align: start; //распологаем по левому краю
 }
 
 
 /*-----------media-zapros-------------*/
 
 @media (max-width: 900px) {
+    //устройства до 900px
     .middle-header h1 {
         font-size: 48px;
     }
@@ -109,6 +103,7 @@ nav #menu-toggle {
     .info_in_head {
         margin-top: 300px;
     }
+    /*------------- бургер-меню ---------------------*/
     .menu-btn {
         display: flex;
         align-items: center;
@@ -140,14 +135,14 @@ nav #menu-toggle {
     }
     .clearfix_2 {
         display: block;
-        position: fixed;
+        position: fixed; //позиция фиксированная
         visibility: hidden;
         top: 0;
         left: -100%;
         width: 205px;
         height: 24%;
         padding: 30px 0;
-        list-style: none;
+        list-style: none; //убираем символы списка
         background-color: rgba(4, 153, 221);
         box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
         transition-duration: 0.25s;
@@ -173,10 +168,10 @@ nav #menu-toggle {
         background-color: #CFD8DC;
     }
     #menu-toggle {
-        opacity: 0;
+        opacity: 0; //прозрачность == 0
     }
     #menu-toggle:checked~.menu-btn>span {
-        transform: rotate(45deg);
+        transform: rotate(45deg); //перемещение элемента вокруг неподвжной точки
     }
     #menu-toggle:checked~.menu-btn>span::before {
         top: 0;
@@ -245,6 +240,7 @@ nav #menu-toggle {
 /*-----------------------footer------------------------*/
 
 footer {
+    //общие стили для footer-a
     display: flex;
     background-color: rgba(237, 237, 237, 1);
     justify-content: center;
@@ -253,6 +249,7 @@ footer {
 }
 
 .one {
+    //первый блок
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -260,6 +257,7 @@ footer {
 }
 
 .one a {
+    //ссылки в первом блоке
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -272,6 +270,7 @@ footer {
 }
 
 .cont_footer {
+    //контент в footer-e
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -280,21 +279,25 @@ footer {
 }
 
 .right_footer {
+    //правый блок
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .three {
+    //третий блок
     margin-left: 65px;
     word-wrap: break-word;
 }
 
 .right_footer p img {
+    //картинки 
     margin-right: 10px;
 }
 
 .znacki {
+    //svg-значки
     margin: auto 10px auto 10px;
     display: flex;
     justify-content: space-around;
@@ -302,6 +305,7 @@ footer {
 }
 
 .right_footer p {
+    //правый блок, стили к тексту
     font-size: 12px;
     color: rgba(40, 40, 40, 1);
     font-family: 'Montserrat', sans-serif;
@@ -317,14 +321,17 @@ footer img {
 }
 
 .one a:hover {
+    //действия при наведении мышки на ссылки
     text-shadow: 1px 1px 3px black;
 }
 
 .znacki img:hover {
+    //действия при наведении мышки на картинки
     transform: scale(1.2);
 }
 
 @media (max-width:591px) {
+    //медиа-запрос для устройств до 591px
     .one a {
         margin-top: 5px;
         font-size: 12px;
@@ -333,7 +340,7 @@ footer img {
         margin: 20px auto 10px auto;
     }
     .cont_footer {
-        flex-direction: column;
+        flex-direction: column; //преобразование в колоночную структуру
         justify-content: flex-start;
         align-items: center;
         width: 95%;
@@ -365,7 +372,7 @@ footer img {
     .right_footer .three {
         display: flex;
         flex-direction: column;
-        word-wrap: break-word;
+        word-wrap: break-word; //перенос слов
         justify-content: center;
         align-items: center;
     }

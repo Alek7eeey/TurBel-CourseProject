@@ -51,17 +51,6 @@ nav li a:hover {
   text-shadow: 1px 1px 3px black;
 }
 
-/*#tours {
-    color: black;
-}
-
-#main {
-    color: black;
-}
-
-#o_nas {
-    color: black;
-}*/
 nav ul {
   display: inline-flex;
   flex-direction: row;
@@ -111,6 +100,7 @@ nav #menu-toggle {
     margin-top: 300px;
   }
 
+  /*------------- бургер-меню ---------------------*/
   .menu-btn {
     display: flex;
     align-items: center;

@@ -1,13 +1,13 @@
 <?xml version="1.0">
 
-<tours>
+<tours> <!--общий корневой тег-->
 
-<city_travel>
-<tour num="1">
-<title>Минск</title>
-<cost>65BYN</cost>
-<cost_for_children>50BYN</cost_for_children>
-<duration>5часов</duration>
+<city_travel> <!--Вид экскурсии-->
+<tour num="1">  <!--Порядковый номер-->
+<title>Минск</title> <!--Название-->
+<cost>65BYN</cost> <!--Цена-->
+<cost_for_children>50BYN</cost_for_children> <!--Цена для детей-->
+<duration>5часов</duration> <!--Продолжительность-->
 </tour>
 
 <tour num="2">

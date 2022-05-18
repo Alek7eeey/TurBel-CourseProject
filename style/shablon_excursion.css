@@ -341,7 +341,7 @@ main {
 }
 
 main h5 {
-  color: rgb(4, 153, 221);
+  color: rgb(0, 0, 0);
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   font-weight: medium;
@@ -350,8 +350,8 @@ main h5 {
 }
 
 main h4 {
-  color: #000000;
-  font-size: 18px;
+  color: rgb(4, 153, 221);
+  font-size: 19px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   margin: 0 0 0 0;
